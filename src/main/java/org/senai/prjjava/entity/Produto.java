@@ -12,7 +12,7 @@ public class Produto {
     private Integer id;
     private String nome;
     private String descricao;
-    private String valor;
+    private float valor;
 
     public Integer getId() {
         return id;
@@ -32,10 +32,10 @@ public class Produto {
     public void setDescricao(String descricao) {
         this.descricao = descricao;
     }
-    public String getValor() {
+    public float getValor() {
         return valor;
     }
-    public void setValor(String valor) {
+    public void setValor(float valor) {
         this.valor = valor;
     }
 
